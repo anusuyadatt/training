@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.MeetingReportActivity"
+    tools:showIn="@layout/activity_meeting_report">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/yellowBackground"
+        >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="100dp"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Meeting Report"
+                android:textColor="#000000"
+                android:textSize="40sp"
+                />
+
+
+            <TextView
+                android:id="@+id/type_of_meeting"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/blueBackground"
+                android:textSize="30sp"
+                android:text="Type Of Meeting "
+
+
+               />
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+         >
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/radio_meeting"
+                    >
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Sarpanch Meeting"
+                        android:textSize="25sp"
+
+                        android:id="@+id/radio_meeting1"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Youth Group Meeting"
+                        android:textSize="25sp"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/radio_meeting2"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Rojgar Melawa"
+                        android:textSize="25sp"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/radio_meeting3"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Rojgar Saathi Meeting"
+                        android:textSize="25sp"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/radio_meeting4"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="College Meeting"
+                        android:textSize="25sp"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/radio_meeting5"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="School Visit"
+                        android:textSize="25sp"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/radio_meeting6"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Door to Door Mobilization"
+                        android:textSize="25sp"
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/radio_meeting7"
+                        />
+
+                </RadioGroup>
+            </LinearLayout>
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:id="@+id/representative_full_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Name of the Representative from the Village "
+                    android:inputType="textPersonName"
+                    android:maxLength="30"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:id="@+id/no_of_participants"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="No of Participants "
+                    android:inputType="number"
+                    android:maxLength="3"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:text="Photo "
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/photo_view"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:text="ADD PHOTO"
+                android:textColor="@color/blueBackground"/>
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/profile_user"
+
+                android:paddingLeft="10dp"/>
+
+
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:id="@+id/outcome_of_meeting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Outcome of the meeting"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/blueBackground"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:id="@+id/sbmt_meeting"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

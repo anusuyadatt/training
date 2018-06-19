@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Pratham Pace</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_mcode">Mobiliser Code</string>
+    <string name="prompt_otp">OTP</string>
+    <string name="mob_no">Mobile Number</string>
+    <string name="action_sign_in">register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="register_ok">Registeration Successfully</string>
+    <string name="response_error">Response Processing Error</string>
+    <string name="db_error">Database Operation Error</string>
+    <string name="registeration_title">Registeration Page</string>
+    <string name="activity_tile">Main Page</string>
+    <string name="register_butt">Register</string>
+    <string name="mobiliser_acvty">Mobiliser Activity</string>
+    <string name="student_details">Student  Registeration</string>
+    <string name="student_history">Student History</string>
+    <string name="mob_act_history">Mobiliser History</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="mob_code">Mobiliser Code</string>
+    <string name="sender">Sender Mobile Number</string>
+    <string name="village">Village Name</string>
+    <string name="student_reached">No. of Students Reached</string>
+    <string name="students_asses">No. of Students Interested</string>
+    <string name="students_ready">No. of Student Send SMS</string>
+    <string name="submit_ok">Submitted Successfully </string>
+    <string name="student_no">Student Mobile Number</string>
+    <string name="std_name">Student Name</string>
+    <string name="program_code">Program Code</string>
+    <string name="rojgar">Is student comes under Rojgar Mitra</string>
+    <string name="profile">Profile</string>
+    <string name="unit">Unit</string>
+    <string name="sub_unit">Sub Unit</string>
+    <string name="state">State</string>
+    <string name="mob_center">Mobiliser Center</string>
+    <string name="location">Location</string>
+    <string name="coordinator">coordinator</string>
+    <string name="name">Name</string>
+    <string name="position">Position</string>
+    <string name="appointment_date">AppointMent Date</string>
+    <string name="registeration_date">Registeration Date</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="std_history_title">Student History</string>
+    <string name="mob_hostory_title">Mobiliser History</string>
+
+    <string name="title_activity_permission">PermissionActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Permissions\nRequired</string>
+    <string name="register_title">Registeration</string>
+    <string name="daily_act">Mobiliser Activity</string>
+    <string name="std_act">Student Details</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="backgn_process">Background process running,try after some time</string>
+    <string name="title_activity_practice">PracticeActivity</string>
+    <string name="title_activity_meeting_report">MeetingReportActivity</string>
+    <string name="title_activity_youth_information">YouthInformationActivity</string>
+    <string name="title_activity_village_information">VillageInformationActivity</string>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+    <string name="title_activity_meeting_youth">MeetingYouthActivity</string>
+    <string name="title_activity_door_to_door_servey">DoorToDoorServeyActivity</string>
+    <string name="title_activity_door_to_door_servey_detail">DoorToDoorServeyDetail</string>
+    <string name="title_activity_youth_info_links">YouthInfoLinksActivity</string>
+    <string name="nameerror">Enter Valid Name</string>
+    <string name="emailerror">Enter Valid Email</string>
+    <string name="passworderror">Enter Valid Password</string>
+    <string name="mobileerror">Enter Valid Mobile Number</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_planning_sheet">PlanningSheetActivity</string>
+
+</resources>
